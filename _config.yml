@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "mole__tech-blog"
+locale                   : "ko-KR"
+title                    : "techielog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "덪이 개발 일지"
+name                     : "techielog"
 description              : ""
 url                      : "https://jiwonpark1.github.io/"
 baseurl                  : ""
