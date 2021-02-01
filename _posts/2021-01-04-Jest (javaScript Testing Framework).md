@@ -1,3 +1,18 @@
+---
+layout: post
+title: Jest 란
+subtitle: This post explains how you can use jest.js.
+tags: [tdd, jest]
+---
+
+This post is written in markdown, but you can also write a [post using html]({% link _posts/2020-02-27-html-posts.html %}).
+
+<span class="color-red">[NEW]:</span> Now you can also create a private post, which will not be visible on the blog homepage, but is accessible via a URL. See [this secret post]({% link _posts/2020-04-05-private-example.html %}) as an example.
+
+Posts should be named as `%yyyy-%mm-%dd-your-post-title-here.md`, and placed in the `_posts/` directory. Drafts can be kept in `_drafts/` directory.
+
+---
+
 # Jest (javaScript Testing Framework)
 
 ## 1. Jest란?
@@ -13,7 +28,7 @@
 1. **toBe()** <br/>
    - 기본형(primitive) 값을 비교할 때 사용한다.
    ```javascript
-   test('two plus two is four', () => {
+   test("two plus two is four", () => {
      expect(2 + 2).toBe(4);
    });
    ```
@@ -29,7 +44,7 @@
 - **toBeFalsy()** : 조건문이 false인지
 
   ```javascript
-  test('zero', () => {
+  test("zero", () => {
     const z = 0;
     expect(z).not.toBeNull();
     expect(z).toBeDefined();
@@ -50,7 +65,7 @@
 - **.toBeCloseTo(n)** : 소수점이 들어 가는 경우
 
   ```javascript
-  test('adding floating point numbers', () => {
+  test("adding floating point numbers", () => {
     const value = 0.1 + 0.2;
     //expect(value).toBe(0.3);           This won't work because of rounding error
     expect(value).toBeCloseTo(0.3); // This works.
@@ -62,8 +77,8 @@
 -**.toMatch(정규식)** : 정규식 일치여부 체크
 
 ```javascript
-test('there is no I in team', () => {
-  expect('team').not.toMatch(/I/);
+test("there is no I in team", () => {
+  expect("team").not.toMatch(/I/);
 });
 ```
 
@@ -74,15 +89,15 @@ test('there is no I in team', () => {
 
   ```javascript
   const shoppingList = [
-    'diapers',
-    'kleenex',
-    'trash bags',
-    'paper towels',
-    'beer'
+    "diapers",
+    "kleenex",
+    "trash bags",
+    "paper towels",
+    "beer",
   ];
 
-  test('the shopping list has beer on it', () => {
-    expect(shoppingList).toContain('beer');
+  test("the shopping list has beer on it", () => {
+    expect(shoppingList).toContain("beer");
     expect(shoppingList).toHaveLength(5);
   });
   ```
