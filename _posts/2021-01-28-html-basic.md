@@ -2,7 +2,7 @@
 layout: default
 title: HTML의 기본
 subtitle:
-tags: [html, 웹표준, 웹접근성]
+tags: [html]
 ---
 
 ## 웹표준이란?

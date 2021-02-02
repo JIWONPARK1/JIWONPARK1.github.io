@@ -2,7 +2,7 @@
 layout: default
 title: Jest 란
 subtitle: This post explains how you can use jest.js.
-tags: [javascript, tdd, jest]
+tags: [javascript, tdd]
 ---
 
 # Jest (javaScript Testing Framework)
