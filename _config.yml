@@ -1,26 +1,25 @@
-title: 어디에나 있는 개발자
-author: 어디에나 있는 개발자
-subtitle: The life of a frustrated engineer
+permalink: /:year:month:day/:title
+url: #Your url here
+baseurl: /project
 
-url: "https://JIWONPARK1.github.io"
-baseurl: ""
+# variables
+name: Your Site Name
+description: Your description here
+google_verification: null
 
-footer_only_homepage: true
-footer_url: "https://JIWONPARK1.github.io"
-footer_text: "어디에나 있는 개발자"
 
-profile-picture: assets/profile.png
-favicon_location: assets/favicon.ico
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
 
-permalink: /:year-:month-:day-:title/
+# Sass
 sass:
-  style: compressed
-  sass_dir: css
+  style: :compressed
+  sass_dir: _sass
 
-navbar:
-  - name: "About"
-    link: "about"
-  - name: "tags"
-    link: "/tags"
-  # - name: "Resume"
-  #   absolute-link: "https://JIWONPARK1.github.io/"
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
