@@ -200,19 +200,7 @@ ul.topbar {
     margin-right: 2px;
   }
 }
-.hljs {
-  background: #222;
-  color: #fff;
-  .hljs-name {
-    color: #6eb4ff;
-  }
-  .hljs-attr {
-    color: #a7fcfc;
-  }
-  .hljs-string {
-    color: #fcab88;
-  }
-}
+
 .post_content {
   position: relative;
   width: 97.5%;
@@ -310,7 +298,17 @@ ul.topbar {
   }
 }
 .hljs {
-  background: #fff8ff;
+  background: #222;
+  color: #fff;
+  .hljs-name {
+    color: #6eb4ff;
+  }
+  .hljs-attr {
+    color: #a7fcfc;
+  }
+  .hljs-string {
+    color: #fcab88;
+  }
 }
 .footer {
   font-size: 12px;
