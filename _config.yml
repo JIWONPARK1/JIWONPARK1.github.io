@@ -1,24 +1,40 @@
-permalink: /:year:month:day/:title
-url: https://jiwonpark1.github.io/
-baseurl: /
+# Site settings
+title: 뻔한 개발자
+description: "어디에나 있는 뻔한 개발자입니다."
+baseurl: "/"
+url: "https://jiwonpark1.github.io/"
 
-# variables
-name: 구식 개발자
-description: 안녕하세요 . 옛스런 구식 개발자입니다.
-google_verification: null
+# Google Analytics
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+# Author
+author:
+  name: jiwon park
+  url: https://jiwonpark1.github.io/
+  email: parkj5028@gmail.com
 
-# Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
-
-# Markdown
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable: true
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+# Excludes
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
+
+# Disqus (Set to your disqus id)
+disqus: jekyll-tale
