@@ -2,7 +2,7 @@
 layout: default
 title: 웹표준과 웹접근성에 대해 알아보자!
 subtitle:
-tags: [html]
+tags: html
 ---
 
 ## 웹표준이란?
