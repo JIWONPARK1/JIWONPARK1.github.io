@@ -2,7 +2,7 @@
   &-header {
     &-title {
       color: $default-shade;
-      font-family: $sans-serif;
+      font-family: $serif-secondary;
       font-size: 4rem;
       margin: 1rem 0;
       text-align: center;
@@ -28,6 +28,7 @@
       border-radius: 5px;
       color: $default-color;
       text-decoration: none;
+      font-family: $serif-secondary;
 
       &:hover,
       &:active {
@@ -44,7 +45,7 @@
     &-label {
       display: inline-block;
       margin: 2rem 0 0.5rem;
-      font-family: $sans-serif;
+      font-family: $serif-secondary;
       color: $default-color;
     }
   }
@@ -55,6 +56,7 @@
     padding: 5px 0;
 
     &-title {
+      font-family: $sans-serif;
       color: $default-color;
       text-decoration: none;
       white-space: nowrap;
@@ -73,6 +75,7 @@
       color: $default-tint;
       text-align: right;
       white-space: nowrap;
+      font-family: $serif-secondary;
     }
 
     &:hover,
