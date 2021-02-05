@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[react] 커스텀 훅 만들기 예제"
+title: "[React] 커스텀 훅 만들기 예제"
 tags: react
 ---
 
