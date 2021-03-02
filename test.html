@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    function solution(clothes) {
+      const reducer = function (acc, v, i) {
+        if (acc.length !== 0) {
+          console.log("first");
+        } else {
+          return (acc[v[1]] = v[0]);
+        }
+      };
+      const initialValue = [];
+      //마지막에 중복제거
+      const result = clothes.reduce(reducer, initialValue);
+      var answer = 0;
+      return answer;
+    }
+    solution([
+      ["crow_mask", "face"],
+      ["blue_sunglasses", "face"],
+      ["smoky_makeup", "face"],
+    ]);
+  </script>
+</html>
