@@ -1,0 +1,23 @@
+.page-about {
+    text-align: center;
+
+    ul {
+        padding-left: 0;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px;
+
+            a {
+                vertical-align: middle;
+            }
+
+            .material-icons {
+                margin-right: 3px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
