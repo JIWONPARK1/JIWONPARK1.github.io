@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[React] redux saga"
+title: '[react] redux saga'
 tags: react
 ---
 
@@ -37,7 +37,7 @@ tags: react
 
 ```js
 function* watchAddPost() {
-  yield throttle("ADD_POST_REQUEST", addPost, 1000);
+  yield throttle('ADD_POST_REQUEST', addPost, 1000);
 }
 ```
 
@@ -53,10 +53,10 @@ function* watchAddPost() {
 - 함수명(...매개변수들) > call(함수명, ...매개변수들)
 
 ```js
-login({ id: "jiwon", password: "1234" });
+login({ id: 'jiwon', password: '1234' });
 
 // call사용시
-call(login, { id: "jiwon", password: "1234" });
+call(login, { id: 'jiwon', password: '1234' });
 ```
 
 ## put

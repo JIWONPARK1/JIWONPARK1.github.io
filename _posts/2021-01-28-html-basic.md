@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 웹표준과 웹접근성
+title: '[html] 웹표준과 웹접근성'
 subtitle:
 tags: html
 ---

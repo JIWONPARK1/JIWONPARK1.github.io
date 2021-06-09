@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[JAVASCRIPT] generator"
+title: '[javascript] generator'
 tags: javascript
 ---
 

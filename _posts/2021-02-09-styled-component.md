@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[HTML] styled-component"
+title: '[html] global styled-component'
 tags: html
 ---
 

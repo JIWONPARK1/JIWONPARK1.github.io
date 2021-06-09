@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[React] 커스텀 훅 만들기 예제"
+title: '[react] 커스텀 훅 만들기 예제'
 tags: react
 ---
 
@@ -12,8 +12,8 @@ tags: react
 
 ```js
 // login.js
-const [id, setId] = useState("");
-const [password, setPassword] = useState("");
+const [id, setId] = useState('');
+const [password, setPassword] = useState('');
 
 const onChangeId = useCallback((e) => {
   setId(e.target.value);
@@ -29,7 +29,7 @@ const onChangePassword = useCallback((e) => {
 ```js
 // useInput.js
 
-import { useState, useCallback } from "react";
+import { useState, useCallback } from 'react';
 
 export default (intialValue = null) => {
   const [value, setValue] = useState(intialValue);
@@ -42,6 +42,6 @@ export default (intialValue = null) => {
 
 // login.js
 //  두줄로 기존 코드가 간결해 진다.
-const [id, onChangeId] = useInput("");
-const [password, onChangePassword] = useInput("");
+const [id, onChangeId] = useInput('');
+const [password, onChangePassword] = useInput('');
 ```
