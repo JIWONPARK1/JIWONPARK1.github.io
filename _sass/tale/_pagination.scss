@@ -4,9 +4,6 @@
   padding-top: 2rem;
   position: relative;
   text-align: center;
-  width: 25px;
-  height: 25px;
-  display: inline-block;
 
   span {
     color: $default-shade;
@@ -45,6 +42,13 @@
 
   .right {
     transform: rotate(90deg);
+
+  }
+
+  &-arrow {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
 
   }
 }
