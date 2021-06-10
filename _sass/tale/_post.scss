@@ -15,6 +15,12 @@
     }
   }
 
+  &-tags {
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
+  }
+
   &-title {
     color: $default-shade;
     font-family: $sans-serif;
