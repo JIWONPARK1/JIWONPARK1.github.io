@@ -15,12 +15,6 @@
     }
   }
 
-  &-tags {
-    text-align: center;
-    color: #aaa;
-    font-size: 20px;
-  }
-
   &-title {
     color: $default-shade;
     font-family: $sans-serif;
@@ -39,6 +33,12 @@
   p {
     margin: 0 0 1rem;
     text-align: justify;
+  }
+
+  &-tags {
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
   }
 
   a:hover {

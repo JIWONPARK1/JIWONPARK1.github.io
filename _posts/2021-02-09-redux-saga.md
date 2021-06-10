@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[react] redux saga'
+title: 'redux saga'
 tags: react
 ---
 

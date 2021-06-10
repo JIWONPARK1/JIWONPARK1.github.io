@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[javascript] generator'
+title: 'generator'
 tags: javascript
 ---
 

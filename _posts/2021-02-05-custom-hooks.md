@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[react] 커스텀 훅 만들기 예제'
+title: '커스텀 훅 만들기 예제'
 tags: react
 ---
 

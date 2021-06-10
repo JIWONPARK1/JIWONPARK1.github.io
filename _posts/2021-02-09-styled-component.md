@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[html] global styled-component'
+title: 'global styled-component'
 tags: html
 ---
 

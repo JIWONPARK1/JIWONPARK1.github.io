@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[html] Scroll Property'
+title: 'Scroll Property'
 subtitle: <a href="https://ko.javascript.info/size-and-scroll">참고</a>
 tags: html
 ---
