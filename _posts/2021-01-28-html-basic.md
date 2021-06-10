@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: '[html] 웹표준과 웹접근성'
 subtitle:
 tags: html

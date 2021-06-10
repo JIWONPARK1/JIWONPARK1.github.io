@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: '[javascript] generator'
 tags: javascript
 ---
