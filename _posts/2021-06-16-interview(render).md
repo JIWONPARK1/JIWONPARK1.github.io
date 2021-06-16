@@ -1,0 +1,52 @@
+---
+layout: post
+title: '프론트엔드 interview - 01 (브라우저 작동 원리)'
+tags: interview
+---
+
+- Q. <a href="https://d2.naver.com/helloworld/59361" target="_blank">브라우저 작동 원리</a>는?
+
+1.  사용자가 선택하거나 요청
+2.  서버로 자원을 요청
+3.  브라우저 엔진에서 해당 URI에 쿠키로 저장될 자료가 있을 경우 가져온다.
+4.  서버에서 가져온 데이터와 쿠키자료를 통신/자바스크립트/UI백엔드로 전파한다.
+5.  프론트화면에서 렌더링 엔진을 통하여 UI로 보여준다.
+
+    - <a href="https://boxfoxs.tistory.com/408" target="_blank" >렌더링 엔진 동작과정</a>
+
+    1. HTML,CSS를 서버로부터 받는다.
+    2. 각각 Dom Tree와 CSSOM으로 Object Model로 만든다.
+
+    <img alt="파싱 원리 Dom" src="../assets/images/img-interview-render-02.png" style="width:45%">
+    <img alt="파싱 원리 Dom" src="../assets/images/img-interview-render-01.png" style="width:45%">
+
+    3. 이 둘을 활용하여 Render Tree를 만든다 (구조,텍스트 + 스타일)
+
+    - "display: none"일 경우 그려지지 않는다.(visibility는 표시됨)
+      <img alt="파싱 원리 Dom" src="../assets/images/img-interview-render-03.png" >
+
+    4. Render Tree에 따라 화면에 그려질 위치 크기등을 계산한다. <br/>
+    이 단계를 통해 %, vh, vw와 같이 상대적인 위치, 크기 속성은 실제 화면에 그려지는 pixel단위로 변환된다.
+
+       <img alt="파싱 원리 Dom" src="../assets/images/img-interview-render-04.png" >
+
+    5. 실제 화면에 그려진다.
+    6. 렌더링이 끝난 후에도 액션이나 이벤트에 따라 reflow/repaint가 일어난다
+
+    - reflow :레이아웃이 변경 될 경우 수치를 다시 계산한다
+    - repaint : reflow됬거나, 레이아웃이 아닌 스타일속성의 변경이 일어날 경우 다시 수행된다.
+
+    \*\* reflow/repaint를 줄이는 방법
+
+    1. 사용하지 않는 노드에는 visibilty: invisible 보다 display: none을 사용하기
+    2. Reflow, Repaint 가 발생하는 속성 사용 피하기. <br/>
+       Reflow가 발생하는 속성보다 Repaint 만 발생하는 속성을 사용하는것이 좋다.
+       <br/>
+       - Reflow가 발생하는 속성 <br/>
+         position ,width ,height ,left ,top ,right ,bottom ,margin ,padding ,border ,border-width ,clear ,display ,float ,font-family ,font-size ,font-weight ,line-height ,min-height ,overflow ,text-align ,vertical-align ,white-space ,....
+       - Repaint가 발생하는 속성 <br/>
+         background,background-image,background-position,background-repeat,background-size,border-radius,border-style,box-shadow,color,line-style,outline,outline-color,outline-style,outline-width,text-decoration,visibility ....
+
+6.  영향을 주는 노드 줄이기
+
+    - position을 absolute 또는 fixed를 사용하여 영향을 받는 주변 노드들을 줄일 수 있습니다.
