@@ -34,30 +34,37 @@ const handleCapturing = () => {
 ### <a href="https://www.w3.org/TR/uievents/#event-types" target="_blank">이벤트 버블링 중단 가능 여부</a>
 
 - Focus Event
-  | type | capture|
-  |-|-|
-  |blur|No|
-  |focus|No|
+
+| type  | capture |
+| ----- | ------- |
+| blur  | No      |
+| focus | No      |
+
 - Mouse Event
-  | type | capture|
-  |-|-|
-  |click|Yes|
-  |mousedown|Yes|
-  |mouseenter|No|
-  |mouseleave|No|
-  |mousemove|Yes|
-  |mouseout|Yes|
-  |mousemover|Yes|
-  |mouseup|Yes|
+
+| type       | capture |
+| ---------- | ------- |
+| click      | Yes     |
+| mousedown  | Yes     |
+| mouseenter | No      |
+| mouseleave | No      |
+| mousemove  | Yes     |
+| mouseout   | Yes     |
+| mousemover | Yes     |
+| mouseup    | Yes     |
+
 - Wheel Event
-  | type | capture|
-  |-|-|
-  |wheel|Yes|
-  |scroll|No|
+
+| type   | capture |
+| ------ | ------- |
+| wheel  | Yes     |
+| scroll | No      |
+
 - Keyboard Event
-  | type | capture|
-  |-|-|
-  |keydown|Yes|
-  |keyup|Yes|
+
+| type    | capture |
+| ------- | ------- |
+| keydown | Yes     |
+| keyup   | Yes     |
 
 \*\*\* 참고 (https://ko.javascript.info/bubbling-and-capturing)
