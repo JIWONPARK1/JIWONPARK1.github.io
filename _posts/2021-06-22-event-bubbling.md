@@ -30,25 +30,32 @@ const handleStopBubbling = (event) => {
 
 ### <a href="https://www.w3.org/TR/uievents/#event-types" target="_blank">이벤트 버블링 중단 가능 여부</a>
 
+| numbers     | return        |
+| ----------- | ------------- |
+| [2,1,3,4,1] | [2,3,4,5,6,7] |
+| [5,0,2,7]   | [2,5,7,9,12]  |
+
 - Focus Event
-  | type | bubble|
-  |-|-|
-  |blur|No|
-  |focus|No|
+
+| type  | bubble |
+| ----- | ------ |
+| blur  | No     |
+| focus | No     |
+
 - Mouse Event
-  | type | bubble|
-  |-|-|
-  |click|Yes|
-  |mousedown|Yes|
-  |mouseenter|No|
-  |mouseleave|No|
-  |mousemove|Yes|
-  |mouseout|Yes|
-  |mousemover|Yes|
-  |mouseup|Yes|
+  | type | bubble |
+  | ----- | ----- |
+  | click | Yes |
+  | mousedown | Yes |
+  | mouseenter | No |
+  | mouseleave | No |
+  | mousemove | Yes |
+  | mouseout | Yes |
+  | mousemover | Yes |
+  | mouseup | Yes |
 - Wheel Event
   | type | bubble|
-  |-|-|
+  | ------ | ------ |
   |wheel|Yes|
   |scroll|Yes|
 - Keyboard Event
