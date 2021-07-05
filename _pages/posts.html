@@ -10,6 +10,7 @@ permalink: /posts/
         {% endfor %}
     </ul>
 </div>
+{% for tag in site.tags %}
 {% for post in tag[1] %}
 <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
     <div>
