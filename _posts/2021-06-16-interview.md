@@ -13,4 +13,5 @@ tags: interview
 3. <a herf="https://jiwonpark1.github.io/2021-06-16/closer" target="_blank">클로져</a>에 대해 설명해주세요.
 
 4. <a herf="https://jiwonpark1.github.io/2021-06-22/event-bubbling" target="_blank">이벤트 버블링</a>과 <a herf="https://jiwonpark1.github.io/2021-06-22/event-capturing" target="_blank">이벤트 캡쳐링</a>에 대해 설명해주세요.
-5.
+
+5. <a herf="https://jiwonpark1.github.io/2021-06-23/cookie" target="_blank">쿠키</a>에 대해 설명해주세요.
