@@ -10,7 +10,20 @@ permalink: /posts/
         {% endfor %}
     </ul>
 </div>
-<div class="catalogue">
+{% for post in tag[1] %}
+<a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+    <div>
+        <span class="tags-post-title">{{ post.title }}</span>
+        <div class="tags-post-line"></div>
+    </div>
+    <span class="tags-post-meta">
+        <time datetime="{{ post.date }}">
+            {{ post.date | date:"%Y-%m-%d" }}
+        </time>
+    </span>
+</a>
+{% endfor %}
+<!-- <div class="catalogue">
     {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <div>
@@ -35,4 +48,4 @@ permalink: /posts/
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
     {% endif %}
 
-</div>
+</div> -->
