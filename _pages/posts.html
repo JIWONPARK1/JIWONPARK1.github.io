@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="side-bar">
+    <ul>
+        {% for tag in site.tags %}
+        <li><a href="{{ site.baseurl }}/tag/html">html</a></li>
+        <a href="/{{ tag[0] }}">{{ tag[0] }}</a>
+        {% endfor %}
+    </ul>
+</div>
+<div class="catalogue">
+    {% for post in paginator.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+        <div>
+            <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+            <h1 class="catalogue-title">{{ post.title }}</h1>
+            <div class="catalogue-line"></div>
+
+            <p class="catalogue-desc">
+                {{ post.content | strip_html | truncatewords: 30 }}
+            </p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    {% endif %}
+    <span>{{ paginator.page }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    {% endif %}
+
+</div>
