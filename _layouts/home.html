@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<!-- <div class="side-bar">
-  <ul>
-    <li><a href="{{ site.baseurl }}/tag/html">html</a></li>
-    <li><a href="{{ site.baseurl }}/tag/javascript">javascript</a></li>
-    <li><a href="{{ site.baseurl }}/tag/css">css</a></li>
-  </ul>
-</div> -->
 <div class="catalogue">
   {% for post in paginator.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
@@ -34,3 +27,6 @@ layout: default
   {% endif %}
 
 </div>
+<script>
+  console.log(paginator)
+</script>

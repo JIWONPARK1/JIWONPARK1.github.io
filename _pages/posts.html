@@ -6,8 +6,7 @@ permalink: /posts/
 <div class="side-bar">
     <ul>
         {% for tag in site.tags %}
-        <li><a href="{{ site.baseurl }}/tag/html">html</a></li>
-        <a href="/{{ tag[0] }}">{{ tag[0] }}</a>
+        <li><a href="{{ site.baseurl }}/post/html">html</a></li>
         {% endfor %}
     </ul>
 </div>
@@ -37,3 +36,6 @@ permalink: /posts/
     {% endif %}
 
 </div>
+<script>
+    console.log(paginator)
+</script>
