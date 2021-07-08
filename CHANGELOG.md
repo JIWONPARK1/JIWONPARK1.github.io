@@ -946,7 +946,7 @@
 
 ### Maintenance
 
-* Reorganize SCSS partials in **assets/css/main.scss**
+* Reorganize SCSS partials in **assets/scss/main.scss**
 
 ## [4.0.6](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.0.6)
 
