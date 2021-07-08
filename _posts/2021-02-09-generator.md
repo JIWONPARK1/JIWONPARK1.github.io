@@ -1,6 +1,7 @@
 ---
 title: "generator"
 tags: javascript
+categories: javascript
 ---
 
 # generator 함수

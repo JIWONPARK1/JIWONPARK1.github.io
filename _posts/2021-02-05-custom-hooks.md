@@ -1,6 +1,7 @@
 ---
 title: "커스텀 훅 만들기 예제"
 tags: react
+categories: react
 ---
 
 ## Custom hook만들기

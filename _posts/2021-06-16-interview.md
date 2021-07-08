@@ -1,6 +1,7 @@
 ---
 title: "프론트엔드 interview"
 tags: interview
+categories: interview
 ---
 
 ## 프론트엔드 개발자 면접 질문 정리

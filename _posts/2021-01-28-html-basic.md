@@ -1,6 +1,7 @@
 ---
 title: "웹표준과 웹접근성"
-subtitle:
+categories:
+  - html
 tags: html
 ---
 

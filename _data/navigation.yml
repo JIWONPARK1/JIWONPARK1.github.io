@@ -2,5 +2,7 @@
 main:
   - title: "about"
     url: /about/
+  - title: "posts"
+    url: /categories/
   - title: "portfolio"
     url: /portfolio/

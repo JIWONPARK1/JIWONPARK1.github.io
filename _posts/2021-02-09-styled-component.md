@@ -1,6 +1,7 @@
 ---
 title: "global styled-component"
 tags: html
+categories: html
 ---
 
 ## createGlobalStyle

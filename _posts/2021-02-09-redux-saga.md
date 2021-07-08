@@ -1,6 +1,7 @@
 ---
 title: "redux saga"
 tags: react
+categories: react
 ---
 
 # Redux Saga의 effect들
