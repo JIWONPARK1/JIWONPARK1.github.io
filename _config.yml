@@ -80,8 +80,8 @@ analytics:
 # Site Author
 author:
   name: jiwon park
-  avatar: "/assets/images/img-profile.pngg"
-  location: "Somewhere"
+  avatar: "/assets/images/img-profile.png"
+  location: "Korea"
   email:
   links:
     - label: "Email"
@@ -96,7 +96,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-     url: "https://jiwonpark1.github.io/"
+      url: "https://jiwonpark1.github.io/"
 
 # Reading Files
 include:

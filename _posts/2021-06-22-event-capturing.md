@@ -5,7 +5,7 @@ tags: javascript
 
 ## 이벤트 캡쳐링 (event capturing)
 
-![capture ex](../assets/images/img-event-capturing.png)
+![capture ex](../assets/images/post/img-event-capturing.png)
 
 - 이벤트가 발생했을때, 최상위 요소인 document에 먼저 이벤트가 발생하며, 순차적으로 이벤트 타겟 태그까지 내려가며 이벤트를 발생시킨다.
 
