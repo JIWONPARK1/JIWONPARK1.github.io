@@ -1,12 +1,22 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: '이벤트 캡쳐링'
 tags: javascript
+=======
+title: "이벤트 캡쳐링"
+tags: javascript
+categories: javascript
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ---
 
 ## 이벤트 캡쳐링 (event capturing)
 
+<<<<<<< HEAD
 ![capture ex](../assets/images/img-event-capturing.png)
+=======
+![capture ex](/assets/images/post/img-event-capturing.png)
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 
 - 이벤트가 발생했을때, 최상위 요소인 document에 먼저 이벤트가 발생하며, 순차적으로 이벤트 타겟 태그까지 내려가며 이벤트를 발생시킨다.
 
@@ -23,8 +33,13 @@ target.addEventListener(type, listener[, useCapture]);
 ex.
 
 ```javascript
+<<<<<<< HEAD
 const eventButton = document.getElementById('eventButton');
 eventButton.addEventListener('click', handleCapturing, true);
+=======
+const eventButton = document.getElementById("eventButton");
+eventButton.addEventListener("click", handleCapturing, true);
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 
 const handleCapturing = () => {
   //

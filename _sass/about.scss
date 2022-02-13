@@ -1,0 +1,32 @@
+.page-about {
+  text-align: center;
+
+  .img-profile {
+    width: 180px;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 50%;
+  }
+
+  ul {
+    width: 280px;
+    margin: 0 auto;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+
+      a {
+        vertical-align: middle;
+        color: orange;
+      }
+
+      .material-icons {
+        margin-right: 3px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

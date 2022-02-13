@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: '웹표준과 웹접근성'
 subtitle:
+=======
+title: "웹표준과 웹접근성"
+categories:
+  - html
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 tags: html
 ---
 

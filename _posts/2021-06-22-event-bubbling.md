@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: '이벤트 버블링'
 tags: javascript
+=======
+title: "이벤트 버블링"
+tags: javascript
+categories: javascript
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ---
 
 ## 이벤트 버블링 (event bubbling)
@@ -10,7 +16,11 @@ tags: javascript
 하지만 내부를 눌러도 모달이 꺼지는 문제가 발생했다.
 <br/> 이런 현상이 바로 이벤트 버블링(Event Bubbling) 때문이었다.
 
+<<<<<<< HEAD
 ![bubbling ex](../assets/images/img-event-bubbling.png)
+=======
+![bubbling ex](/assets/images/post/img-event-bubbling.png)
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 
 - dom의 요소에서 이벤트가 발생했을떄, 그 요소에 할당된 이벤트가 동작할 뿐만 아니라 부모 요소에 할당된 이벤트까지 발생한다. 그리고 최상위 요소를 만날떄까지 이 과정이 반복된다.
 - 이벤트가 거슬러 올라가는 모습이 물속의 거품(bubble)과 닮았기 때문에 이름 붙여졌다.

@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: '프론트엔드 interview'
 tags: interview
+=======
+title: "프론트엔드 interview"
+tags: interview
+categories: interview
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ---
 
 ## 프론트엔드 개발자 면접 질문 정리

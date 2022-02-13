@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: 'generator'
 tags: javascript
+=======
+title: "generator"
+tags: javascript
+categories: javascript
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ---
 
 # generator 함수

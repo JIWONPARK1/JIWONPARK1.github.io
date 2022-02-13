@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tale
 
 [![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
@@ -127,3 +128,6 @@ Found a bug or have a suggestion? Feel free to create an issue or make a pull re
 
 ## License
 See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
+=======
+// jiwon's gitlog
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5

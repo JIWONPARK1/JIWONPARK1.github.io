@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: 'redux saga'
 tags: react
+=======
+title: "redux saga"
+tags: react
+categories: react
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ---
 
 # Redux Saga의 effect들
@@ -37,7 +43,11 @@ tags: react
 
 ```js
 function* watchAddPost() {
+<<<<<<< HEAD
   yield throttle('ADD_POST_REQUEST', addPost, 1000);
+=======
+  yield throttle("ADD_POST_REQUEST", addPost, 1000);
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 }
 ```
 
@@ -53,10 +63,17 @@ function* watchAddPost() {
 - 함수명(...매개변수들) > call(함수명, ...매개변수들)
 
 ```js
+<<<<<<< HEAD
 login({ id: 'jiwon', password: '1234' });
 
 // call사용시
 call(login, { id: 'jiwon', password: '1234' });
+=======
+login({ id: "jiwon", password: "1234" });
+
+// call사용시
+call(login, { id: "jiwon", password: "1234" });
+>>>>>>> 8fd801fe9c62c4a250ce1255a2af2afa6a3111b5
 ```
 
 ## put
